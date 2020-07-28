@@ -965,9 +965,10 @@ Frequent Faces will be available when you open Camera from the lock screen."</st
     <string name="pref_version">Info</string>
     <string name="pref_author">GCam 7.3.018 by Urnyx05</string>
     <string name="pref_base">Based on the Google Camera version</string>
+    <string name="pref_modded_by">Modded for MN10Lite (toco) by</string>
     <string name="pref_credit">This version was built by all these devs</string>
     <string name="pref_check_version">Check For Version</string>
-    <string name="pref_update">Check for updates and changelog</string>
+    <string name="pref_update">Check for updates and changelog (Telegram Group)</string>
     <string name="pref_gallery_title">Use a third-party gallery</string>
     <string name="pref_gallery_summary">Default gallery is Google Photos.</string>
     <string name="pref_ehn_awb_p2">Pixel 2</string>

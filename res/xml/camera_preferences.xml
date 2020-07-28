@@ -201,11 +201,14 @@
             <Preference android:layout="@layout/preference_updates" android:title="@string/pref_base" android:key="pref_category_about_mod1" android:summary="Google Camera 7.3.018.291816413">
                 <intent android:action="android.intent.action.VIEW" android:data="https://play.google.com/store/apps/details?id=com.google.android.GoogleCamera" />
             </Preference>
+            <Preference android:layout="@layout/preference_updates" android:title="@string/pref_modded_by" android:key="pref_category_about_mod2" android:summary="Uvera (Telegram)">
+                <intent android:action="android.intent.action.VIEW" android:data="https://t.me/uvera" />
+            </Preference>
             <Preference android:layout="@layout/preference_updates" android:title="@string/pref_credit" android:key="pref_category_about_dev" android:summary="Arnova8G2, BSG, back.rider, burial, cstark27, Eszdman, fu24, HomerSp, IDan, John Galt, marlin_ku, marcello, mf182, miniuser, namok, onFire, r0m10, san1ty, Savitar, the_dise, tigr, TlnNeun, xtrme and Zoran">
                 <intent android:action="android.intent.action.VIEW" android:data="https://www.celsoazevedo.com/files/android/google-camera/developers/" />
             </Preference>
             <Preference android:layout="@layout/preference_updates" android:title="@string/pref_check_version" android:key="pref_category_about_updates" android:summary="@string/pref_update">
-                <intent android:action="android.intent.action.VIEW" android:data="https://www.celsoazevedo.com/files/android/google-camera/dev-urnyx05/" />
+                <intent android:action="android.intent.action.VIEW" android:data="https://t.me/xiaomiminote10lite" />
             </Preference>
         </PreferenceScreen>
         <Preference android:icon="@drawable/quantum_gm_ic_feedback_gm_grey_24" android:layout="@layout/hide" android:title="@string/setting_google_feedback" android:key="pref_launch_feedback" />
