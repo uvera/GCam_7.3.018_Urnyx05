@@ -421,6 +421,21 @@
     goto :goto_0
 
     :cond_3
+    sget-object v2, Landroid/os/Build;->DEVICE:Ljava/lang/String;
+
+    const-string v1, "toco"
+
+    invoke-virtual {v1, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_4
+
+    const-string v0, "Macro"
+
+    goto :goto_0
+
+    :cond_4
     const-string v0, "Camera ID4"
 
     :goto_0
