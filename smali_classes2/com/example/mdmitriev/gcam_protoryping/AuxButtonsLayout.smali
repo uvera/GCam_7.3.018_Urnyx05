@@ -649,6 +649,35 @@
     goto :goto_0
 
     :cond_e
+    sget-object v1, Landroid/os/Build;->DEVICE:Ljava/lang/String;
+
+    const-string v0, "toco"
+
+    invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_f
+
+    const-string v0, "Main"
+
+    iput-object v0, p0, Lcom/example/mdmitriev/gcam_protoryping/AuxButtonsLayout;->buttonNameMain:Ljava/lang/String;
+
+    const-string v0, "Depth"
+
+    iput-object v0, p0, Lcom/example/mdmitriev/gcam_protoryping/AuxButtonsLayout;->buttonNameTele:Ljava/lang/String;
+
+    const-string v0, "Wide"
+
+    iput-object v0, p0, Lcom/example/mdmitriev/gcam_protoryping/AuxButtonsLayout;->buttonNameWide:Ljava/lang/String;
+
+    const-string v0, "Macro"
+
+    iput-object v0, p0, Lcom/example/mdmitriev/gcam_protoryping/AuxButtonsLayout;->buttonNameInfinity:Ljava/lang/String;
+
+    goto :goto_0
+
+    :cond_f
     const-string v0, "2x"
 
     iput-object v0, p0, Lcom/example/mdmitriev/gcam_protoryping/AuxButtonsLayout;->buttonNameTele:Ljava/lang/String;
